@@ -10889,7 +10889,7 @@ a.text-dark:focus {
 }
 
 .header img {
-  margin-top: 0px;
+  margin-top: 0;
   max-height: 70px;
 }
 
@@ -10902,7 +10902,7 @@ a.text-dark:focus {
 }
 
 .header .btn-iscriviti {
-  line-height: 0px;
+  line-height: 0;
   color: white;
   max-height: 40px;
   background: #61ce4e;
@@ -10910,6 +10910,32 @@ a.text-dark:focus {
   padding: 20px 30px;
   border-radius: 5px;
   text-transform: uppercase;
+}
+
+.album.py-5 {
+  background-color: #1b3c59;
+}
+
+.background {
+  background-color: #1b3c59;
+}
+
+.card {
+  border: none;
+}
+
+.card .card-body .paragraph {
+  color: White;
+  font-size: 19px;
+}
+
+.card > h1 {
+  color: White;
+  font-size: 19px;
+}
+
+.prova {
+  color: #1b3c59;
 }
 
 .jumbo_content,
@@ -10958,6 +10984,11 @@ h1 strong {
   color: #1b3c59;
 }
 
+.main3 {
+  height: 400px;
+  background-color: white;
+}
+
 footer {
   background: #1b3c59;
 }
@@ -10979,7 +11010,7 @@ footer img {
 }
 
 footer .footer_head_left_numbers p {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   color: White;
 }
 
@@ -11003,5 +11034,18 @@ footer .footer_bottom_icons a i {
 footer .footer-copyright {
   color: white;
   font-size: 15px;
+}
+
+.faq_left {
+  color: #1b3c59;
+  width: 50%;
+  float: left;
+  background-color: white;
+}
+
+.faq_right {
+  background-color: #1b3c59;
+  color: white;
+  width: 50;
 }
 

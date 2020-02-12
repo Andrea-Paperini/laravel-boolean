@@ -2,22 +2,26 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito'); // Variables
 @import 'variables'; // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+$boolean_color: #1b3c59;
 
 .header {
     height: 90px;
+
     img {
-        margin-top: 0px;
+        margin-top: 0;
         max-height: 70px;
     }
+
     .nav-item > .nav-link {
-            color: #1b3c59;
+        color: $boolean_color;
     }
+
     .nav-item {
         margin-right: 50px;
-
     }
+
     .btn-iscriviti {
-        line-height: 0px;
+        line-height: 0;
         color: white;
         max-height: 40px;
         background: #61ce4e;
@@ -27,75 +31,139 @@
         text-transform: uppercase;
     }
 }
-.jumbo_content,.left {
+
+.album.py-5 {
+    background-color: $boolean_color;
+}
+
+.background {
+    background-color: $boolean_color;
+}
+
+.card {
+    border: none;
+}
+
+.card .card-body .paragraph {
+    color: White;
+    font-size: 19px;
+}
+
+.card > h1 {
+    color: White;
+    font-size: 19px;
+}
+
+.prova {
+    color: $boolean_color;
+}
+
+.jumbo_content,
+.left {
     width: 50%;
 }
-.jumbo_content,.right {
+
+.jumbo_content,
+.right {
     width: 50%;
-    img{
+
+    img {
         max-width: 90%;
     }
 }
+
 .jumbo_cnt {
     margin-top: 100px;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
+
 .jumbo-title {
     font-size: 58.5px;
     line-height: 1.1;
     font-weight: 300;
-    color: #1b3c59;
+    color: $boolean_color;
 }
-.jumbo_content left.jumbo-title,h1 strong {
+
+.jumbo_content left.jumbo-title,
+h1 strong {
     font-size: 58.5px;
     display: block;
     font-weight: 700;
 }
-.subtitle{
-        font-size: 22px;
-        color: #1b3c59;
+
+.subtitle {
+    font-size: 22px;
+    color: $boolean_color;
 }
-.no-p-left,.paragraph {
-    color: #1b3c59;
+
+.no-p-left,
+.paragraph {
+    color: $boolean_color;
 }
-footer{
-    background: #1b3c59;
+
+.main3 {
+    height: 400px;
+    background-color: white;
+}
+
+footer {
+    background: $boolean_color;
+
     > hr {
         border-color: white;
         margin-left: 245px;
         width: 73%;
     }
-    .fleft{
+
+    .fleft {
         margin-left: 230px;
         text-align: left;
     }
+
     img {
         margin-top: 80px;
         width: 200px;
     }
+
     .footer_head_left_numbers p {
-        margin-bottom: 0px;
+        margin-bottom: 0;
         color: White;
     }
-    .list-unstyled li a{
+
+    .list-unstyled li a {
         color: white;
     }
+
     .fright {
         margin-right: 60px;
         margin-top: 80px;
         font-size: 20px;
         text-align: right;
-        }
+    }
 
-        .footer_bottom_icons a i{
-            color: white;
-            margin: 30px 20px;
-            font-size: 35px;
-        }
+    .footer_bottom_icons a i {
+        color: white;
+        margin: 30px 20px;
+        font-size: 35px;
+    }
+
     .footer-copyright {
         color: white;
         font-size: 15px;
     }
+}
+
+.faq_left {
+    color: $boolean_color;
+    width: 50%;
+    float: left;
+    background-color: white;
+}
+
+.faq_right {
+    background-color: $boolean_color;
+    color: white;
+    width: 50;
 }
